@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoviesByMovieDB</string>
+    <string name="action_search">Search</string>
+    <string name="search">Search</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_rating">Movie rating</string>
+    <string name="update_popular_movies">Update popular movies</string>
+    <string name="sort_by_alpha">Sort by alpha</string>
+    <string name="sort_by_release_date">Sort by release date</string>
+</resources>
