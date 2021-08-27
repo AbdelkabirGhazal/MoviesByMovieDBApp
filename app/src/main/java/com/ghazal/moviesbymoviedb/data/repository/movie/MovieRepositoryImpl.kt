@@ -1,7 +1,6 @@
 package com.ghazal.moviesbymoviedb.data.repository.movie
 
 import android.util.Log
-import android.widget.Toast
 import com.ghazal.moviesbymoviedb.data.model.movie.Movie
 import com.ghazal.moviesbymoviedb.data.repository.movie.datasource.MovieCacheDataSource
 import com.ghazal.moviesbymoviedb.data.repository.movie.datasource.MovieLocalDataSource

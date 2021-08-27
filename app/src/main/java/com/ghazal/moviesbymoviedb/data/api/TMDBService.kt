@@ -17,7 +17,10 @@ interface TMDBService {
 
 
     @GET("search/movie")
-    suspend fun searchMovies(@Query("api_key") apiKey: String, @Query("query") query : String): Response<MovieList>
+    suspend fun searchMovies(
+        @Query("api_key") apiKey: String,
+        @Query("query") query: String
+    ): Response<MovieList>
 
 
 }

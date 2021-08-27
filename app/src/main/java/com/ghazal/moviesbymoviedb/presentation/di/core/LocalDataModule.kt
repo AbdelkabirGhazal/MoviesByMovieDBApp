@@ -12,7 +12,7 @@ class LocalDataModule {
 
     @Singleton
     @Provides
-    fun provideMovieLocalDataSource(movieDao: MovieDao):MovieLocalDataSource{
+    fun provideMovieLocalDataSource(movieDao: MovieDao): MovieLocalDataSource {
         return MovieLocalDataSourceImpl(movieDao)
     }
 

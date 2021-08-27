@@ -4,8 +4,8 @@ import com.ghazal.moviesbymoviedb.data.model.movie.Movie
 
 interface MovieRepository {
 
-    suspend fun getMovies():List<Movie>?
-    suspend fun updateMovies():List<Movie>?
-    suspend fun searchMovies(query : String):List<Movie>?
+    suspend fun getMovies(): List<Movie>?
+    suspend fun updateMovies(): List<Movie>?
+    suspend fun searchMovies(query: String): List<Movie>?
 
 }

@@ -12,7 +12,7 @@ class MovieViewModelFactory(
     private val searchMoviesUseCase: SearchMoviesUseCase
 ) : ViewModelProvider.Factory {
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
-        return MovieViewModel(getMoviesUseCase,updateMoviesUsecase, searchMoviesUseCase) as T
+        return MovieViewModel(getMoviesUseCase, updateMoviesUsecase, searchMoviesUseCase) as T
     }
 }
 
